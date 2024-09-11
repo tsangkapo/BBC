@@ -1,0 +1,28 @@
+{
+  "name": "super-api-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/register": "^7.24.6",
+    "@cucumber/cucumber": "^11.0.0",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "jsonpath": "^1.1.1"
+  }
+}
