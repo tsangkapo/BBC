@@ -11,7 +11,7 @@ const {Given,When,Then} = require('cucumber')
 
 
   When ('User makes a GET request', function () {
-    return request2.get('ibltest').then((response) => {
+    return request2.get().then((response) => {
         expect(response.status).to.be.eq(200);
     return console.log(response.status);
   });
